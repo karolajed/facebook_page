@@ -1,6 +1,11 @@
+body {
+    background: linear-gradient(to bottom, white 0%, lightblue 100%);
+    font-family: Helvetica;
+}
+
 header {
     width: 100%;
-    height: 90px;
+    height: 80px;
     background-color: #3B5998;
 }
 
@@ -15,6 +20,7 @@ header form {
     display: inline;
     float: right;
     margin-right: 150px;
+    margin-top: 10px;
 }
 
 .sign-in {
@@ -28,9 +34,7 @@ header form input,
 header form p {
     width: 190px;
     height: 20px;
-    margin-top: 8px;
     margin-right: 8px;
-    font-family: Helvetica;
     color: antiquewhite;
     font-size: 13px;
 }
@@ -41,13 +45,16 @@ header form input {
 }
 
 header form p {
+    margin-top: 5px;
     color: #6d8bcc;
 }
 
 #signing-in {
+    font-weight: bold;
+    height: 20px;
     width: 80px;
     float: left;
-    margin-top: 40px;
+    margin-top: 23px;
     background-color: #4e6ba7;
     border: 1px solid black;
 }
@@ -55,4 +62,45 @@ header form p {
 .sign-in label,
 .sign-in input {
     display: block;    
+}
+
+.picture {
+    margin-top: 50px;
+    margin-left: 130px;
+    display: blocks;
+    width: 600px;
+}
+
+.picture img {
+    margin: auto;
+    width: 100%;
+}
+
+h2 {
+    line-height: 30px;
+    text-align: left;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+h3 {
+    font-weight: 100;
+}
+.sign-up {
+    width: 500px;
+    margin-top: 50px;
+    margin-right: 100px;
+    display: inline;
+    float: left;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 36px;
+}
+
+.big {
+    height: 35px;
+    border-radius: 5%;
 }
