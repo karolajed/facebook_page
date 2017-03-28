@@ -57,6 +57,7 @@ header form p {
     margin-top: 23px;
     background-color: #4e6ba7;
     border: 1px solid black;
+    text-align: center;
 }
 
 .sign-in label,
@@ -64,16 +65,19 @@ header form p {
     display: block;    
 }
 
+.main-container {
+    max-width: 1300px;
+}
+
 .picture {
-    margin-top: 50px;
-    margin-left: 130px;
-    display: blocks;
-    width: 600px;
+    margin-top: 30px;
+    width: 40%;
+    float: left;
 }
 
 .picture img {
     margin: auto;
-    width: 100%;
+    width: 110%;
 }
 
 h2 {
@@ -87,17 +91,16 @@ h2 {
 h3 {
     font-weight: 100;
 }
+
 .sign-up {
-    width: 500px;
-    margin-top: 50px;
-    margin-right: 100px;
-    display: inline;
+    width: 35%;
+    margin-top: 25px;
+    margin-left: 120px;
     float: left;
 }
 
 h1 {
-    font-family: Helvetica;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .big {
